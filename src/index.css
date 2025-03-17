@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/Alexandria/Alexandria-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Apply the font in body */
+body {
+    font-family: Alexandria;
+}
+/* --Apply the font in body-- */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.logo:hover{
+    text-decoration:none;
+}
+@media(max-width:508px){
+    .try {
+        border-top:black solid 2px
+    }
+}
+/* For mobile screens (smaller than 600px) */
+@media (max-width: 600px) {
+
+.center-logo {
+    justify-content: "center";
+}
+    .logo {
+      font-size: 1.5rem; /* Adjust the logo size */
+    }
+  
+    .MuiSvgIcon-root {
+      font-size: 3rem; /* Adjust icon size */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack nav links vertically */
+      align-items: center;
+      width: 100%; /* Make the navigation take full width */
+    }
+  
+    nav li {
+      margin: 0.5rem 0; /* Add spacing between items */
+      font-size: 1rem; /* Reduce font size */
+    }
+  
+    .navBarWrapper {
+      padding: 1rem; /* Add more padding for smaller screens */
+    }
+  }
+  
+  /* For tablets (600px to 900px) */
+  @media (max-width: 900px) and (min-width: 601px) {
+    nav ul {
+      gap: 0.5rem; /* Reduce gap between items */
+    }
+  
+    .logo {
+      font-size: 1.8rem; /* Adjust logo size */
+    }
+  
+    .MuiSvgIcon-root {
+      font-size: 3.5rem; /* Adjust icon size */
+    }
+  }
+  

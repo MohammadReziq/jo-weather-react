@@ -1,0 +1,7 @@
+@media (max-width:600px){
+    .speed-dial {
+        position:absolute;
+        bottom:50;
+        right:32   
+       } 
+}
